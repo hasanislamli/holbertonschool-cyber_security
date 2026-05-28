@@ -111,3 +111,4 @@ Used in Kali Linux environment
 
 Summary
 This project demonstrates how password security works in real systems and how attackers use tools to break weak password hashes. It is an introduction to ethical hacking, penetration testing, and cryptographic security concepts.
+echo "Updated README" >> README.md
