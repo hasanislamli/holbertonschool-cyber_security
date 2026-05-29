@@ -1,4 +1,1 @@
-pass
-123
-hello
-helloworld
+[33mFailed to parse hashes using the 'native hashcat' format.[0m
