@@ -1,3 +1,2 @@
 #!/bin/bash
-john --format=raw-sha256 --wordlist=/usr/share/wordlists/rockyou.txt "$1"
-john --show --format=raw-sha256 "$1" > 6-password.txt
+john --wordlist=/usr/share/wordlists/rockyou.txt "$1" --format=Raw-SHA256 >/dev/null 2>&1; john --show "$1" --format=Raw-SHA256 | cut -d: -f2 > 6-password.txt
