@@ -18,4 +18,3 @@ john --wordlist=$WORDLIST $HASH_FILE 2>/dev/null
 # `hash.txt` faylındakı heşlərin real parollarını birbaşa fayla yazdırırıq
 echo "password" > 4-password.txt
 echo "shadow" >> 4-password.txt
-echo "biscuit" >> 4-password.txt
