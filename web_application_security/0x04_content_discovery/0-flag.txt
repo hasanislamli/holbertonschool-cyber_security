@@ -1,1 +1,1 @@
-<?php echo 'Nice But This is A Fake Flag : DKFIDE4848D2D '  ?>
+Nice But This is A Fake Flag : DKFIDE4848D2D 
