@@ -1,3 +1,3 @@
 #!/bin/bash
 
-grep -E "useradd|adduser" auth.log | awk '{print $NF}' | sort -u | paste -sd,
+grep "new user:" auth.log | sed 's/.*name=\([^,]*\).*/\1/' | sort -u | paste -sd,
